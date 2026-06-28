@@ -217,10 +217,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans            &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
