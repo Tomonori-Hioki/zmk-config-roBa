@@ -127,11 +127,20 @@
             tap-ms = <20>;
         };
 
-        volume_up_down: volume_up_down {
+        volume_down_up: volume_down_up {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "VOLUME_UP_DOWN";
+            label = "VOLUME_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&kp C_VOLUME_DOWN>, <&kp C_VOLUME_UP>;
+
+            tap-ms = <20>;
+        };
+
+        tab_left_right: tab_left_right {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "TAB_LEFT_RIGHT";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp LC(LS(TAB))>, <&kp LC(TAB)>;
 
             tap-ms = <20>;
         };
@@ -181,7 +190,7 @@
 &trans          &trans           &trans          &trans           &trans         &trans      &kp DELETE  &trans                                                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
+            sensor-bindings = <&tab_left_right>;
         };
 
         BT {
@@ -234,7 +243,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
 
-            sensor-bindings = <&volume_up_down>;
+            sensor-bindings = <&volume_down_up>;
         };
     };
 };
