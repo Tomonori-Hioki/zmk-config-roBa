@@ -63,7 +63,7 @@
 
         trackball_scroll_2 {
             bindings = <&lt 6 K_SCROLL_UP>;
-            key-positions = <19 8>;
+            key-positions = <19 18>;
         };
     };
 
