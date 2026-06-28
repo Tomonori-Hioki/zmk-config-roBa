@@ -143,7 +143,7 @@
 &trans                &trans        &trans         &trans           &trans  &trans      &trans  &trans                                                                     &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         NUM {
@@ -154,7 +154,7 @@
 &kp PERIOD         &mul_symbol   &div_symbol   &trans        &trans     &trans      &trans  &trans                            &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         ARROW {
