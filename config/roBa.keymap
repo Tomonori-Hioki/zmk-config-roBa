@@ -11,8 +11,8 @@
 };
 
 &trackball {
-    automouse-layer = <4>;
-    scroll-layers = <5>;
+    automouse-layer = <5>;
+    scroll-layers = <6>;
 
     // arrows {
     //     layers = <3>;
@@ -111,13 +111,6 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-        };
-
-        scroll_up_down: scroll_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL_UP_DOWN";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
         };
 
         encoder_msc_down_up: encoder_msc_down_up {
