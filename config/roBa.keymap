@@ -133,7 +133,7 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 5 TAB             &kp SQT        &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LANGUAGE_2  &lt 3 SPACE  &lt 2 LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                             &lt 5 ESCAPE
             >;
-oi
+
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
