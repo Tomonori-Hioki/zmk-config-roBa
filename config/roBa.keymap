@@ -57,12 +57,12 @@
         };
 
         trackball_scroll_1 {
-            bindings = <&lt 6 K_SCROLL_UP>;
+            bindings = <&to 6>;
             key-positions = <19 8>;
         };
 
         trackball_scroll_2 {
-            bindings = <&lt 6 K_SCROLL_UP>;
+            bindings = <&to 6>;
             key-positions = <19 18>;
         };
     };
