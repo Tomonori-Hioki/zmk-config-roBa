@@ -22,8 +22,8 @@
         scroll_blocks_mouse {
             if-layers = <3>;
             then-inhibit = <5>;
+        };
     };
-};
 
     combos {
         compatible = "zmk,combos";
