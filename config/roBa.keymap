@@ -12,11 +12,8 @@
 
 &trackball {
     automouse-layer = <5>;
-    scroll-layers = <3>;    &trackball {
-        automouse-layer = <5>;
-        scroll-layers = <3>;
-        automouse-trigger-layer-lock;
-    };
+    scroll-layers = <3>;
+    automouse-trigger-layer-lock;
 };
 
 / {
