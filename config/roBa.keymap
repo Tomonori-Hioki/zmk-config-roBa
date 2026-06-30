@@ -11,11 +11,20 @@
 };
 
 &trackball {
-    scroll-layers = <3 5>;
+    scroll-layers = <3>;
     automouse-layer = <5>;
 };
 
 / {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        scroll_blocks_mouse {
+            if-layers = <3>;
+            then-inhibit = <5>;
+    };
+};
+
     combos {
         compatible = "zmk,combos";
 
