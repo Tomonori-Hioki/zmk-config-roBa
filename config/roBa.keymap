@@ -57,12 +57,12 @@
         };
 
         trackball_scroll_1 {
-            bindings = <&mo 6>;
+            bindings = <&mo 3>;
             key-positions = <19 8>;
         };
 
         trackball_scroll_2 {
-            bindings = <&mo 6>;
+            bindings = <&mo 3>;
             key-positions = <19 18>;
         };
     };
@@ -188,8 +188,7 @@
 &kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &trans      &trans      &kp LS(LG(S))  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &trans
 &kp LEFT_SHIFT  &kp LC(LS(TAB))  &trans          &kp LC(TAB)      &kp PAGE_DOWN  &trans      &trans      &kp RA(PSCRN)  &kp LS(LG(LEFT))  &trans        &kp LS(LG(RIGHT))  &trans
 &trans          &trans           &trans          &trans           &trans         &trans      &kp DELETE  &trans                                                            &trans
-            >;
-
+            >;            sensor-bindings = <&tab_left_right>;
             sensor-bindings = <&tab_left_right>;
         };
 
