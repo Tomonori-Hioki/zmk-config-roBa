@@ -13,7 +13,6 @@
 &trackball {
     automouse-layer = <5>;
     scroll-layers = <3>;
-    automouse-trigger-layer-lock;
 };
 
 / {
