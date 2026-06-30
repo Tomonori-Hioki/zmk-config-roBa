@@ -151,10 +151,10 @@
 
         SYMBOLS {
             bindings = <
-&trans                &kp DOLLAR    &kp AMPERSAND  &kp CARET        &trans                      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                &trans
-&kp HASH              &kp ASTERISK  &kp AT_SIGN    &kp EXCLAMATION  &trans  &trans      &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &trans
-&mt LEFT_SHIFT MINUS  &kp PERCENT   &kp GRAVE      &kp MINUS        &trans  &trans      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &mt RIGHT_SHIFT MINUS
-&trans                &trans        &trans         &trans           &trans  &trans      &trans  &trans                                                                     &trans
+&trans    &kp DOLLAR    &kp AMPERSAND  &kp CARET        &trans                      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                &trans
+&kp HASH  &kp ASTERISK  &kp AT_SIGN    &kp EXCLAMATION  &trans  &trans      &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &trans
+&trans    &kp PERCENT   &kp GRAVE      &kp MINUS        &trans  &trans      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &trans
+&trans    &trans        &trans         &trans           &trans  &trans      &trans  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -173,10 +173,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &trans           &kp UP_ARROW    &trans           &kp PAGE_UP                            &kp RS(PSCRN)  &trans            &kp LG(UP)    &trans             &trans
-&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &trans      &trans      &kp LS(LG(S))  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &trans
-&kp LEFT_SHIFT  &kp LC(LS(TAB))  &trans          &kp LC(TAB)      &kp PAGE_DOWN  &trans      &trans      &kp RA(PSCRN)  &kp LS(LG(LEFT))  &trans        &kp LS(LG(RIGHT))  &trans
-&trans          &trans           &trans          &trans           &trans         &trans      &kp DELETE  &trans                                                            &trans
+&kp ESCAPE  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                            &kp RS(PSCRN)  &kp LC(LS(TAB))   &kp LG(UP)    &kp LC(TAB)        &trans
+&kp HOME    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &trans      &trans      &kp LS(LG(S))  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &trans
+&trans      &trans          &trans          &trans           &kp PAGE_DOWN  &trans      &trans      &kp RA(PSCRN)  &kp LS(LG(LEFT))  &trans        &kp LS(LG(RIGHT))  &trans
+&trans      &trans          &trans          &trans           &trans         &trans      &kp DELETE  &trans                                                            &trans
             >;
 
             sensor-bindings = <&tab_left_right>;
@@ -195,10 +195,10 @@
 
         MOUSE {
             bindings = <
-&to 0   &to 0   &to 0   &to 0   &to 0                       &to 0   &to 0     &to 0     &to 0     &to 0
-&to 0   &to 0   &to 0   &to 0   &to 0   &to 0       &to 0   &to 0   &mkp MB1  &mkp MB3  &mkp MB2  &to 0
-&to 0   &to 0   &to 0   &to 0   &to 0   &to 0       &to 0   &to 0   &mkp MB4  &to 0     &mkp MB5  &to 0
-&to 0   &to 0   &to 0   &to 0   &to 0   &to 0       &to 0   &to 0                                 &to 0
+&to_layer_0 Q      &to_layer_0 W         &to_layer_0 E         &to_layer_0 R                &to_layer_0 T                                                                   &to_layer_0 Y           &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A      &to_layer_0 S         &to_layer_0 D         &to_layer_0 F                &to_layer_0 G           &to 0                            &to_layer_0 SEMICOLON  &to_layer_0 H           &mkp MB1       &mkp MB3           &mkp MB2       &to_layer_0 MINUS
+&to_layer_0 Z      &to_layer_0 X         &to_layer_0 C         &to_layer_0 V                &to_layer_0 B           &to_layer_0 TAB                  &to_layer_0 SQT        &to_layer_0 N           &mkp MB4       &to_layer_0 COMMA  &mkp MB5       &to_layer_0 SLASH
+&to_layer_0 LCTRL  &to_layer_0 LEFT_WIN  &to_layer_0 LEFT_ALT  &lt_to_layer_0 4 LANGUAGE_2  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 2 LANGUAGE_1      &to_layer_0 BACKSPACE  &lt_to_layer_0 1 ENTER                                                   &lt_to_layer_0 8 ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -206,10 +206,10 @@
 
         SCROLL {
             bindings = <
-&trans            &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
