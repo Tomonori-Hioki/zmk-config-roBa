@@ -179,7 +179,7 @@
             bindings = <
 &kp ESCAPE  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                            &kp RS(PSCRN)  &kp LC(LS(TAB))   &kp LG(UP)    &kp LC(TAB)        &trans
 &kp HOME    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &trans      &trans      &kp LS(LG(S))  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &trans
-&trans      &trans          &trans          &trans           &kp PAGE_DOWN  &trans      &trans      &kp RA(PSCRN)  &kp LS(LG(LEFT))  &trans        &kp LS(LG(RIGHT))  &trans
+&trans      &trans          &trans          &trans           &kp PAGE_DOWN  &trans      &trans      &kp RA(PSCRN)  &kp LS(LG(LEFT))  &kp LG(D)     &kp LS(LG(RIGHT))  &trans
 &trans      &trans          &trans          &trans           &trans         &trans      &kp DELETE  &trans                                                            &trans
             >;
 
