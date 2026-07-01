@@ -210,10 +210,10 @@
 
         VOLUME {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp C_MUTE  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans      &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp C_MUTE  &kp LA(LG(K))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans      &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
 
             sensor-bindings = <&volume_down_up>;
