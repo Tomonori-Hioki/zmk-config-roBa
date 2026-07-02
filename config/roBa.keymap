@@ -58,11 +58,6 @@
             bindings = <&mo 6>;
             key-positions = <19 20>;
         };
-
-        test {
-            bindings = <&none>;
-            key-positions = <34 22>;
-        };
     };
 
     macros {
