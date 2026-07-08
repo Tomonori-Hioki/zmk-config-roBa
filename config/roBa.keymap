@@ -155,10 +155,10 @@
 
         SYMBOLS+NUM {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN           &kp HASH       &kp DOLLAR             &kp PERCENT                        &kp CARET  &kp N7  &kp N8  &kp N9  &kp PLUS
-&kp HASH         &kp LEFT_PARENTHESIS  &kp AMPERSAND  &kp RIGHT_PARENTHESIS  &trans         &trans      &trans  &kp EQUAL  &kp N4  &kp N5  &kp N6  &trans
-&trans           &kp LEFT_BRACKET      &kp GRAVE      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans      &trans  &kp N0     &kp N1  &kp N2  &kp N3  &trans
-&trans           &trans                &trans         &kp DELETE             &trans         &trans      &trans  &trans                             &kp ASTERISK
+&kp EXCLAMATION  &kp AT_SIGN           &kp HASH       &kp DOLLAR             &kp PERCENT                            &kp CARET  &kp N7  &kp N8  &kp N9  &kp PLUS
+&kp HASH         &kp LEFT_PARENTHESIS  &kp AMPERSAND  &kp RIGHT_PARENTHESIS  &trans         &trans      &trans      &kp EQUAL  &kp N4  &kp N5  &kp N6  &trans
+&trans           &kp LEFT_BRACKET      &kp GRAVE      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans      &trans      &kp N0     &kp N1  &kp N2  &kp N3  &trans
+&trans           &trans                &trans         &trans                 &trans         &trans      &kp DELETE  &trans                             &kp ASTERISK
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -177,10 +177,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                        &kp RS(PSCRN)  &kp LC(LS(TAB))   &kp LG(UP)    &kp LC(TAB)        &trans
-&kp HOME    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &trans      &trans  &kp LS(LG(S))  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &kp LG(TAB)
-&trans      &trans          &kp LG(TAB)     &trans           &kp PAGE_DOWN  &trans      &trans  &kp RA(PSCRN)  &kp LS(LG(LEFT))  &kp LG(D)     &kp LS(LG(RIGHT))  &trans
-&trans      &trans          &trans          &kp DELETE       &trans         &trans      &trans  &trans                                                            &trans
+&kp ESCAPE  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                            &kp RS(PSCRN)  &kp LC(LS(TAB))   &kp LG(UP)    &kp LC(TAB)        &trans
+&kp HOME    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &trans      &trans      &kp LS(LG(S))  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &kp LG(TAB)
+&trans      &trans          &kp LG(TAB)     &trans           &kp PAGE_DOWN  &trans      &trans      &kp RA(PSCRN)  &kp LS(LG(LEFT))  &kp LG(D)     &kp LS(LG(RIGHT))  &trans
+&trans      &trans          &trans          &trans           &trans         &trans      &kp DELETE  &trans                                                            &trans
             >;
 
             sensor-bindings = <&tab_left_right>;
