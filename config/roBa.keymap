@@ -58,6 +58,11 @@
             bindings = <&mo 6>;
             key-positions = <19 20>;
         };
+
+        arrow_right {
+            bindings = <&mo 8>;
+            key-positions = <41 21>;
+        };
     };
 
     macros {
@@ -228,6 +233,17 @@
             >;
 
             sensor-bindings = <&volume_down_up>;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &kp LC(T)  &kp LC(LS(TAB))   &kp LG(UP)    &kp LC(TAB)        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(W)  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &kp LS(LG(LEFT))  &kp LG(TAB)   &kp LS(LG(RIGHT))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                        &trans
+            >;
+
+            sensor-bindings = <&tab_left_right>;
         };
     };
 };
