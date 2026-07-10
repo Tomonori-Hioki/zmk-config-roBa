@@ -215,12 +215,12 @@
             sensor-bindings = <&volume_down_up>;
         };
 
-        layer_8 {
+        ARROW_RIGHT {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp LC(T)  &kp LC(LS(TAB))   &kp LG(UP)    &kp LC(TAB)        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(W)  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(RIGHT)      &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &kp LS(LG(LEFT))  &kp LG(TAB)   &kp LS(LG(RIGHT))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                        &trans
+&trans  &trans  &trans  &trans  &trans                      &kp LC(T)  &kp LC(LS(TAB))   &kp UP       &kp LC(TAB)        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(W)  &kp LEFT          &kp DOWN     &kp RIGHT          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &kp LS(LG(LEFT))  &kp LG(TAB)  &kp LS(LG(RIGHT))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                       &trans
             >;
 
             sensor-bindings = <&tab_left_right>;
